@@ -22,6 +22,9 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bower-rails'
+gem 'angular-rails-templates'
+gem 'foreman'
+gem 'sprockets', '2.12.3'
 
 group :test, :development do
   gem "rspec-rails", "~> 2.0"
@@ -39,7 +42,6 @@ group :test, :development do
 
 end
 
-gem "foreman"
 group :production, :staging do
   gem 'pg'
   gem "rails_12factor"
